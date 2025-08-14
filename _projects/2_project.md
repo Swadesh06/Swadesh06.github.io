@@ -1,81 +1,51 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: Deep RL-enabled Fortnite Agent
+description: Advanced Reinforcement Learning for Complex Gaming Environments
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This ongoing team project, conducted under the Data Science Group, focuses on developing an intelligent agent capable of playing the highly complex battle royale game "Fortnite" using state-of-the-art deep reinforcement learning techniques.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Details
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Duration:** October 2024 – May 2025  
+**Affiliation:** Data Science Group, IIT Roorkee  
+**Role:** Team Member  
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Approach
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Our approach combines several cutting-edge techniques to tackle the multi-faceted challenges of Fortnite gameplay:
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Core Technologies
 
-{% raw %}
+- **Multi-linear ICVF (Implicit Conditional Value Functions):** Implementing temporal difference learning for value-based decision making
+- **DreamerV3:** Utilizing as the world model to predict future states and plan optimal actions
+- **NVIDIA COSMOS:** Employed as the embedding model to process and embed video streams for training
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Challenges Addressed
 
-{% endraw %}
+1. **Complex Action Spaces:** Managing the vast array of possible actions in Fortnite's dynamic environment
+2. **Multi-agent Dynamics:** Handling interactions with multiple opponents in real-time
+3. **Long-term Planning:** Balancing immediate rewards with strategic long-term objectives
+4. **Visual Understanding:** Processing complex visual information from game streams
+
+## Technical Implementation
+
+The project integrates:
+- Advanced computer vision techniques for game state understanding
+- Sophisticated reinforcement learning algorithms for decision making
+- Real-time processing capabilities for responsive gameplay
+- Multi-modal learning approaches combining visual and strategic information
+
+## Innovation
+
+This project pushes the boundaries of RL applications in complex, dynamic environments and contributes to the advancement of AI agents in competitive gaming scenarios.
+
+---
+
+*This project represents a significant challenge in applying modern deep reinforcement learning to one of the most complex and dynamic gaming environments available today.*

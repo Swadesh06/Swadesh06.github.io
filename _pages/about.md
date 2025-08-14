@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.iitr.ac.in/'>Indian Institute of Technology Roorkee</a>. Electronics and Communication Engineering.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>BTech Student</p>
+    <p>Electronics and Communication Engineering</p>
+    <p>IIT Roorkee, Uttarakhand, India</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an undergraduate researcher in Electronics and Communication Engineering at [IIT Roorkee](https://www.iitr.ac.in/), with a deep passion for Computer Vision, Diffusion Models, and AI Safety. My research focuses on Generative AI, Interpretability, and Vision-Language Model robustness.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have been fortunate to collaborate with leading research institutions and industry partners, including [Virginia Tech](https://ece.vt.edu/), [AuraML](https://www.auraml.com/), [Ernst and Young](https://www.ey.com/en_in), [IIIT Hyderabad](https://robotics.iiit.ac.in/), [IIT Bombay](https://www.kcdh.iitb.ac.in/), and [BOSCH](https://www.bosch-ai.com/) through various research internships and projects. My work spans across diverse areas including circuit tracing interpretability in LLMs, text-to-3D scene generation, business workflow optimization, and multi-task reinforcement learning.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Currently, I am pursuing research in geometric manipulation of latent manifolds in Diffusion Models and developing frameworks for better interpretability in generative vision models. I have published work at top-tier venues including TMLR, NeurIPS workshops, and have received recognition including the Best Paper Award at MLRC 2025.

@@ -1,10 +1,7 @@
 ---
-layout: cv
+redirect: /assets/pdf/CV_Swadesh_Swain.pdf
 permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: /Users/swadeshswain/Desktop/Inventory/documents/webpage/Swadesh06.github.io/assets/pdf/CV_Swadesh_Swain.pdf # you can also use external links here
-toc:
-  sidebar: left
 ---

@@ -1,80 +1,63 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: LLM AI-Generated Text Classification
+description: Detecting AI-Generated Content and Enhancing Robustness
 img:
-importance: 3
-category: fun
+importance: 4
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This open research project, conducted in collaboration with the Vision and Language Group, focuses on developing robust methods for identifying AI-generated text and enhancing system resilience against artificially generated content.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Details
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Duration:** December 2023 – January 2024  
+**Collaboration:** Vision and Language Group  
+**Code Repository:** [GitHub](https://github.com/Swadesh06/LLM-AI-Genrated-Text-Classification)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Research Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Primary Goals
+1. **Detection Accuracy:** Develop highly accurate classifiers to distinguish between human and AI-generated text
+2. **Robustness Enhancement:** Build systems resistant to adversarial attacks and evasion techniques
+3. **Generalization:** Create models that work across different AI text generation systems
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technical Approach
 
-{% raw %}
+### Machine Learning Methods
+- Implemented advanced NLP techniques for text analysis
+- Developed feature extraction methods specific to AI-generated content patterns
+- Applied ensemble learning approaches for improved detection accuracy
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Robustness Strategies
+- Investigated adversarial robustness against sophisticated evasion attempts
+- Developed techniques to handle evolving AI generation methods
+- Implemented cross-domain validation for generalization
 
-{% endraw %}
+## Key Challenges Addressed
+
+1. **Evolving AI Models:** Adapting to increasingly sophisticated text generation models
+2. **Subtle Patterns:** Detecting subtle linguistic markers that distinguish AI from human text
+3. **Domain Adaptation:** Ensuring performance across different text types and domains
+4. **Adversarial Robustness:** Maintaining accuracy against deliberate evasion attempts
+
+## Applications
+
+### Academic Integrity
+Supporting educational institutions in maintaining academic honesty by detecting AI-assisted submissions.
+
+### Content Verification
+Helping platforms and organizations verify the authenticity of textual content.
+
+### Research Tool
+Providing researchers with reliable methods to study AI-generated content in various contexts.
+
+## Impact
+
+This project contributes to the growing field of AI content detection, addressing critical challenges in maintaining trust and authenticity in digital communications and content creation.
+
+---
+
+*This research addresses the important societal challenge of distinguishing between human and AI-generated content in an era of increasingly sophisticated language models.*

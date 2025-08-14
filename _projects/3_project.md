@@ -1,81 +1,57 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Reproducing UPoP
+description: Vision-Language Transformer Compression Research
 img: assets/img/7.jpg
-redirect: https://unsplash.com
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This reproduction study focused on "UPop: Unified and Progressive Pruning for Compressing Vision-Language Transformers," originally published at ICML 2023. The project was conducted as part of the BYOP Reproducibility Track 2024.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Details
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+**Duration:** December 2023 – February 2024  
+**Track:** BYOP Reproducibility Track 2024  
+**Target Model:** DeiT (Data-efficient image Transformers)  
+**Code Repository:** [GitHub](https://github.com/Swadesh06/BYOP_Repro_UPop)
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Research Objectives
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+1. **Reproducibility:** Faithfully reproduce the original UPoP results for DeiT models
+2. **Enhancement:** Introduce optimizations and improvements to the original methodology
+3. **Analysis:** Conduct extensive ablation studies to understand the method's effectiveness
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Key Achievements
 
-{% raw %}
+### Performance Results
+- Achieved **90% model compression** with only **5.5% accuracy drop**
+- Successfully reproduced the original paper's core findings
+- Demonstrated the effectiveness of progressive pruning in Vision-Language Transformers
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### Technical Contributions
+- Implemented unified pruning strategy for both vision and language components
+- Developed progressive compression pipeline that maintains model performance
+- Conducted comprehensive ablation studies on pruning strategies
+- Introduced enhancements for better optimization convergence
 
-{% endraw %}
+## Methodology
+
+### Unified Pruning Strategy
+Implemented a cohesive approach to prune both vision and language transformer components simultaneously, maintaining the balance between modalities.
+
+### Progressive Compression
+Developed a gradual pruning schedule that allows the model to adapt to reduced capacity over multiple stages.
+
+### Optimization Enhancements
+Introduced novel optimizations to improve the convergence properties of the compressed models.
+
+## Impact
+
+This work contributes to the field of efficient AI by demonstrating practical approaches to compress large Vision-Language models while maintaining their performance, making them more accessible for deployment in resource-constrained environments.
+
+---
+
+*This project was part of the BYOP Reproducibility Track, emphasizing the importance of reproducible research in machine learning.*
