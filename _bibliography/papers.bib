@@ -8,13 +8,12 @@
   journal={Transactions on Machine Learning Research},
   year={2025},
   month={June},
-  abstract={Reproducing "An Image is Worth 1000 Lies: Adversarial Transferability Across Prompts on Vision-Language Models", analyzing its limitations in an attempt to further enhance Cross Prompt Attacks for VLMs. Introduced a novel initialization technique based on providing better attributes to initial noise using Diffusion Models, Improved Cross-Model Transferability and ASR performance.},
+  abstract={Large Vision-Language Models (VLMs) have revolutionized computer vision, enabling tasks such as image classification, captioning, and visual question answering. However, they re- main highly vulnerable to adversarial attacks, particularly in scenarios where both visual and textual modalities can be manipulated. In this study, we conduct a comprehensive reproducibility study of "An Image is Worth 1000 Lies: Adversarial Transferability Across Prompts on Vision-Language Models" validating the Cross-Prompt Attack (CroPA) and confirming its superior cross-prompt transferability compared to existing baselines. Be- yond replication we propose several key improvements: (1) A novel initialization strategy that significantly improves Attack Success Rate (ASR). (2) Investigate cross-image trans- ferability by learning universal perturbations. (3) A novel loss function targeting vision encoder attention mechanisms to improve generalization. Our evaluation across prominent VLMs—including Flamingo, BLIP-2, and InstructBLIP as well as extended experiments on LLaVA validates the original results and demonstrates that our improvements consistently boost adversarial effectiveness. Our work reinforces the importance of studying adversarial vulnerabilities in VLMs and provides a more robust framework for generating transferable adversarial examples, with significant implications for understanding the security of VLMs in real-world applications.},
   arxiv={2506.22982},
   code={https://github.com/Swadesh06/Revisting_CroPA},
   html={https://openreview.net/forum?id=5L90cl0xtf&noteId=7yskfQI5KW},
-  award={Best Paper Award at MLRC 2025},
+  award={<a href="https://x.com/repro_challenge/status/1954935709380247575" target="_blank">Best Paper Award at MLRC 2025</a>},
   award_name={Best Paper Award},
-  additional_info={. <a href="https://x.com/repro_challenge/status/1954935709380247575" target="_blank">Best Paper Award Tweet</a>},
   bibtex_show={true},
   selected={true}
 }
@@ -26,17 +25,18 @@
   booktitle={NeurIPS 2024 Workshop on Interpretable AI: Past, Present and Future},
   year={2024},
   month={December},
-  abstract={Developed RiemannOpt, a framework to optimize sample point selection for Riemann Sum approximations in Integrated Gradients methods. Reduced computational costs by up to 4x while maintaining similar performance to baseline methods.},
+  abstract={Integrated Gradients (IG) is a widely used algorithm for attributing the outputs of a deep neural network to its input features. Due to the absence of closed-form integrals for deep learning models, inaccurate Riemann Sum approximations are used to calculate IG. This often introduces undesirable errors in the form of high levels of noise, leading to false insights in the model's decision-making process. We introduce a framework, RiemannOpt, that minimizes these errors by optimizing the sample point selection for the Riemann Sum. Our algorithm is highly versatile and applicable to IG as well as its derivatives like Blur IG and Guided IG. RiemannOpt achieves up to 20% improvement in Insertion Scores. Additionally, it enables its users to curtail computational costs by up to four folds, thereby making it highly functional for constrained environments.},
   arxiv={2410.04118},
   code={https://github.com/ShreeSinghi/RiemannOpt},
   html={https://neurips.cc/virtual/2024/workshop/84733},
   bibtex_show={true}
 }
 
-@article{swain2025synthetic,
+@inproceedings{swain2025synthetic,
+  abbr={Under Prep.},
   title={Synthetic Signal Generation with Diffusion Models},
   author={Swain, Swadesh and others},
-  journal={Under Preparation},
+  booktitle={Under Preparation},
   year={2025},
   month={June},
   abstract={Devising a resource-efficient data generation pipeline for synthetic data generation of vibrational accelerometer signals of ball bearings. Introduced a lightweight diffusion architectures achieving 99.7% discriminator confidence against real data, trained with only 100 samples per-class of real-data.},
