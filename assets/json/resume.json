@@ -1,200 +1,350 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Swadesh Swain",
+    "label": "Electronics and Communication Engineering Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "swadesh_s@ece.iitr.ac.in",
+    "phone": "",
+    "url": "https://www.iitr.ac.in/",
+    "summary": "Undergraduate researcher and student at IIT Roorkee specializing in Machine Learning, Computer Vision, and Generative AI with extensive research experience across multiple prestigious institutions and industry collaborations.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Roorkee",
+      "countryCode": "IN",
+      "region": "Uttarakhand"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Swadesh Swain",
+        "url": "https://www.linkedin.com/in/swadesh-swain-241033286/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Swadesh06",
+        "url": "https://github.com/Swadesh06"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Swadesh Swain",
+        "url": "https://scholar.google.com/citations?user=Swadesh%20Swain&user=MHH5khQAAAAJ"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Virginia Tech",
+      "position": "Research Intern",
+      "url": "https://ece.vt.edu/",
+      "startDate": "2025-07-01",
+      "endDate": "",
+      "summary": "Conducting research to bench-mark circuit tracing interpretability methods in modern LLMs",
+      "highlights": [
+        "Conducting research to bench-mark circuit tracing interpretability methods in modern LLMs",
+        "Advisor: Dr. Nagendra Aneja, Associate Professor - Bradley Department of Electrical and Computer Engineering, Virginia Tech"
+      ]
+    },
+    {
+      "name": "AuraML",
+      "position": "Research Intern",
+      "url": "https://www.auraml.com/",
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "summary": "Implementing text-to-3D scene generation frameworks with Graph Diffusion Models",
+      "highlights": [
+        "Implementing text-to-3D scene generation frameworks with Graph Diffusion Models",
+        "Created a text to 3D warehouse generator and editor accessible by an extension through Isaac-Sim for industrial simulation applications",
+        "Advisory Lead: Arjun Gupta, CTO - AuraML"
+      ]
+    },
+    {
+      "name": "Ernst and Young",
+      "position": "Generative AI Intern",
+      "url": "https://www.ey.com/en_in",
+      "startDate": "2025-05-01",
+      "endDate": "2025-07-01",
+      "summary": "Implemented BEAT flow optimization pipeline for business working pipelines using Graph Diffusion networks",
+      "highlights": [
+        "Implemented BEAT flow optimization pipeline for business working pipelines using Graph Diffusion networks",
+        "Advisory Lead: Rajat Gupta, Senior Manager, Data Science – Ernst and Young"
+      ]
+    },
+    {
+      "name": "Robotics Research Centre, IIIT Hyderabad",
+      "position": "Undergraduate Researcher",
+      "url": "https://robotics.iiit.ac.in/",
+      "startDate": "2025-04-01",
+      "endDate": "2025-07-01",
+      "summary": "Conducted research to develop generalized skill-based models in Reinforcement Learning using Diffusion Models and Sparse MoE-frameworks for VLA tasks",
+      "highlights": [
+        "Conducted research to develop generalized skill-based models in Reinforcement Learning using Diffusion Models and Sparse MoE-frameworks for VLA tasks",
+        "Developing Multi-Task RL frameworks",
+        "Advisor: KM Krishna, Professor and Lab Head, Robotics Research Centre – IIIT Hyderabad"
+      ]
+    },
+    {
+      "name": "Koita Centre for Digital Health, IIT Bombay",
+      "position": "Machine Learning Engineer",
+      "url": "https://www.kcdh.iitb.ac.in/",
+      "startDate": "2024-05-01",
+      "endDate": "2024-10-01",
+      "summary": "Implementing pipelines for RAG assisted content generation, OCR correction and content assisted Image reconstruction for medical applications",
+      "highlights": [
+        "Implementing pipelines for RAG assisted content generation, OCR correction and content assisted Image reconstruction for medical applications as part of the Digital Health Team",
+        "Project Chair Professor: Ganesh Ramakrishnan, Koita Centre for Digital Health – IIT Bombay; Supervisor: Kundeshwar Pundalik, Sr. Generative AI Engineer"
+      ]
+    },
+    {
+      "name": "KonectU",
+      "position": "Generative AI Engineer",
+      "url": "https://konectu.in/",
+      "startDate": "2024-05-01",
+      "endDate": "2024-10-01",
+      "summary": "Implemented foundational RAG assisted LAM model to autonomously cater a student's application process",
+      "highlights": [
+        "Implemented foundational RAG assisted LAM model to autonomously cater a student's application process as part of the early-stage team in this startup, implemented proof of concept models",
+        "Supervisor: Kundeshwar Pundalik, Co-Founder and CTO, KonectU"
+      ]
+    },
+    {
+      "name": "C.A.N.D.L.E Research Lab, IIT Roorkee | BOSCH",
+      "position": "Undergraduate Researcher",
+      "url": "https://sites.google.com/view/comparch-machinelearning-lab/home",
+      "startDate": "2023-12-01",
+      "endDate": "",
+      "summary": "Conducting research in collaboration with BOSCH on Geometric manipulation of latent manifolds of Diffusion Models for Editing, Conditioning, and Interpretability",
+      "highlights": [
+        "Conducting research in collaboration with BOSCH on Geometric manipulation of latent manifolds of Diffusion Models for Editing, Conditioning, and Interpretability",
+        "Synthetic Data Generation using Latent Space Conditioning of Diffusion Models pretrained on fixed length data to arbitrary length data, and Interpretability in Generative Vision Models",
+        "Previous research experience includes in Multi-Modal model compression, Neural Architectural Search, Approximate computing, Image Processing and Compression techniques",
+        "Advisor: Sparsh Mittal, Associate Professor, C.A.N.D.LE Research Lab – IIT Roorkee"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Data Science Group, IIT Roorkee",
+      "position": "Joint Secretary",
+      "url": "https://dsgiitr.github.io/dsg-website/",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "summary": "Leading open-source projects and research in Computer Vision, Diffusion Models, VLMs, Robustness and Explainability",
+      "highlights": [
+        "Worked on open-source projects and research in the domain of Computer Vision, Diffusion Models, VLMs, Robustness and Explainability",
+        "Managed and organized lectures, workshops, hackathons spanning the field of Data Science and AI",
+        "Our team publishes research at several A* conferences such as NeurIPS, CVPR, ICLR, with most works lead solely by undergraduate authors"
+      ]
+    },
+    {
+      "organization": "International Relations Cell",
+      "position": "Joint Secretary",
+      "url": "https://ir.iitr.ac.in/HomePage",
+      "startDate": "2023-09-01",
+      "endDate": "2025-05-01",
+      "summary": "Managing international relations and partnerships for IIT Roorkee students",
+      "highlights": [
+        "Created database of research and contacts for various programs and scholarships abroad available for IIT Roorkee students",
+        "Organizing various talk/interview events with partnerships from universities and students from abroad"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Indian Institute of Technology Roorkee",
+      "url": "https://www.iitr.ac.in/",
+      "area": "Electronics and Communication Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "2022-10-01",
+      "endDate": "2026-06-01",
+      "score": "7.5/10.0",
+      "courses": []
+    },
+    {
+      "institution": "Puna International School",
+      "url": "",
+      "area": "Higher Secondary Education",
+      "studyType": "Higher Secondary",
+      "startDate": "2020-04-01",
+      "endDate": "2022-06-01",
+      "score": "96.4/100%",
+      "courses": []
+    },
+    {
+      "institution": "Rachana School",
+      "url": "",
+      "area": "Secondary Education",
+      "studyType": "Secondary",
+      "startDate": "2007-04-01",
+      "endDate": "2020-03-01",
+      "score": "95.6/100%",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "HOD Appreciation Letter for Highest Increase in SGPA in a single semester",
+      "date": "",
+      "awarder": "IIT Roorkee",
+      "summary": "Recognition for academic excellence and improvement"
+    },
+    {
+      "title": "Institute Representative for NVIDIA AI Summit",
+      "date": "2024-01-01",
+      "awarder": "IIT Roorkee",
+      "summary": "Nominated as Institute Representative for NVIDIA AI Summit, Mumbai, India, 2024"
+    },
+    {
+      "title": "JEE Advanced All India Rank 1423",
+      "date": "2022-01-01",
+      "awarder": "NTA",
+      "summary": "All India Rank 1423 out of 1M+ candidates in JEE Advanced 2022"
+    },
+    {
+      "title": "JEE Mains All India Rank 1697",
+      "date": "2022-01-01",
+      "awarder": "NTA",
+      "summary": "All India Rank 1697 out of 1M+ candidates in JEE Mains 2022"
+    },
+    {
+      "title": "Best Paper Award",
+      "date": "2025-06-01",
+      "awarder": "MLRC 2025",
+      "summary": "Best Paper Award for 'Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability in Vision-Language Models'"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability in Vision-Language Models",
+      "publisher": "TMLR 2025, MLRC 2025",
+      "releaseDate": "2025-06-01",
+      "url": "https://arxiv.org/abs/2506.22982",
+      "summary": "Reproducing 'An Image is Worth 1000 Lies: Adversarial Transferability Across Prompts on Vision-Language Models', analyzing its limitations in an attempt to further enhance Cross Prompt Attacks for VLMs. Introduced a novel initialization technique based on providing better attributes to initial noise using Diffusion Models, Improved Cross-Model Transferability and ASR performance."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Riemann Sum Optimization for Accurate Integrated Gradients Computation",
+      "publisher": "NeurIPS 2024, Interpretable AI Workshop",
+      "releaseDate": "2024-12-01",
+      "url": "https://arxiv.org/abs/2410.04118",
+      "summary": "Developed RiemannOpt, a framework to optimize sample point selection for Riemann Sum approximations in Integrated Gradients methods. Reduced computational costs by up to 4x while maintaining similar performance to baseline methods."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Synthetic Signal Generation with Diffusion Models",
+      "publisher": "Under Preparation",
+      "releaseDate": "2025-06-01",
+      "url": "",
+      "summary": "Devising a resource-efficient data generation pipeline for synthetic data generation of vibrational accelerometer signals of ball bearings. Introduced a lightweight diffusion architectures achieving 99.7% discriminator confidence against real data, trained with only 100 samples per-class of real-data."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Advanced",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "Java",
+        "C/C++",
+        "Verilog",
+        "RISC-V Assembly",
+        "Assembly"
+      ]
+    },
+    {
+      "name": "Machine Learning Frameworks",
+      "level": "Advanced",
+      "keywords": [
+        "OpenCV",
+        "TensorFlow",
+        "TensorFlow Lite",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Research Areas",
+      "level": "Advanced",
+      "keywords": [
+        "Computer Vision",
+        "Diffusion Models",
+        "Generative AI",
+        "Vision-Language Models",
+        "Reinforcement Learning",
+        "Interpretability"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Gujarati",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Oriya",
+      "fluency": "Conversational"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Machine Learning",
+        "Computer Vision",
+        "Artificial Intelligence",
+        "Generative Models"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "IEEE Signal Processing Cup, ICASSP 2025",
+      "startDate": "2024-09-01",
+      "endDate": "2025-02-01",
+      "description": "A team research project aimed at finding optimal methods for advanced Deepfake detection in images, submitted to the IEEE Signal Processing Cup, ICASSP 2025",
+      "highlights": [
+        "Advanced Deepfake detection research",
+        "Advisor: Vinod Pankajakshan, Associate Professor, Vision and Image Processing Lab – IIT Roorkee"
+      ],
+      "url": "https://2025.ieeeicassp.org/sp-cup/"
+    },
+    {
+      "name": "Deep RL-enabled Fortnite Agent",
+      "startDate": "2024-10-01",
+      "endDate": "2024-05-01",
+      "description": "A team project ongoing under Data Science Group, to develop an agent to play the highly complex game 'Fortnite', using multi-linear ICVF via temporal difference learning and DreamerV3 as world model",
+      "highlights": [
+        "NVIDIA's COSMOS used as the embedding model to embed video streams for training"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Reproducing UPoP",
+      "startDate": "2023-12-01",
+      "endDate": "2024-02-01",
+      "description": "Reproduced results for paper titled UPop: Unified and Progressive Pruning for Compressing Vision-Language Transformers, ICML 2023, for DeiT model, under the BYOP Reproducibility Track 2024",
+      "highlights": [
+        "Conducted Extensive ablation study and introduced enhancements for optimizations",
+        "Achieved 90% model compression with a mere 5.5% accuracy drop"
+      ],
+      "url": "https://github.com/Swadesh06/BYOP_Repro_UPop"
+    },
+    {
+      "name": "LLM-AI-Generated-Text-Classification",
+      "startDate": "2023-12-01",
+      "endDate": "2024-01-01",
+      "description": "Open research project with Vision and Language Group, focused on identifying AI generated text and enhancing robustness against artificial content",
+      "highlights": [
+        "AI-generated text detection research"
+      ],
+      "url": "https://github.com/Swadesh06/LLM-AI-Genrated-Text-Classification"
     }
   ]
 }
