@@ -1,0 +1,371 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{array}
+\usepackage{tikz}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.0in}
+\setlength{\rightmargin}{0.6in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small#2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumePublicationHeading}[2]{
+    \item
+    \textbf{#1} \\
+    \small\textit{#2} \hfill
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-9pt}}
+
+
+\begin{document}
+
+\begin{center}
+    \begin{minipage}{\textwidth}
+        \centering
+        \textbf{\Huge \scshape Swadesh Swain}
+    \end{minipage}
+    
+    \vspace{10pt} % Adjust the vertical space as needed
+    
+        \begin{tabular}{c}
+            \faEnvelope{ }\href{mailto:swadesh_s@ece.iitr.ac.in}{\underline{swadesh\_s@ece.iitr.ac.in}} $|$ 
+            \faLinkedin{ }\href{https://www.linkedin.com/in/swadesh-swain-241033286/}{\underline{Swadesh Swain}} $|$
+            \faGithub{ }\href{https://github.com/Swadesh06}{\underline{Swadesh06}} $|$
+            \faGraduationCap{ }\href{https://scholar.google.com/citations?user=Swadesh%20Swain&user=MHH5khQAAAAJ}{\underline{Swadesh Swain}} $|$
+            \faUniversity{ }\href{https://www.iitr.ac.in/}{\underline{IIT Roorkee}}
+        \end{tabular}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology Roorkee, Roorkee, Uttarakhand}{ \hfill  GPA: 7.5/10.0}
+      {Bachelor of Technology in Electronics and Communication Engineering}{ \hfill Oct 2022 -- Jun 2026}
+    \resumeSubheading
+      {Puna International School, Ahmedabad, Gujarat}{ \hfill 
+ GPA: 96.4/100\%}
+      {Higher Secondary Education}{\hfill Apr 2020 -- Jun 2022}
+    \resumeSubheading
+      {Rachana School, Ahmedabad, Gujarat}{ \hfill GPA: 95.6/100\%}
+      {Secondary Education}{ \hfill Apr 2007 -- Mar 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------WORK EXPERIENCE-----------
+\section{Work and Research Experience}
+    \resumeSubHeadingListStart
+
+
+    \resumeProjectHeading
+          {\href{https://ece.vt.edu/}{\textbf{Virginia Tech}} \emph{$|$ Research Intern}}
+          {\hfill July 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Conducting research to bench-mark circuit tracing interpretability methods in modern LLMs}
+            \resumeItem{Advisor: \href{https://naneja.github.io/}{\textbf{Dr. Nagendra Aneja}}, Associate Professor - Bradley Department of Electrical and Computer Engineering, Virginia Tech}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\href{https://www.auraml.com/}{\textbf{AuraML}} \emph{$|$ Research Intern}}
+          {\hfill June 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Implementing text-to-3D scene generation frameworks with Graph Diffusion Models}
+            \resumeItem{Created a text to 3D warehouse generator and editor accessible by an extension through Isaac-Sim for industrial simulation applications}
+            \resumeItem{Advisory Lead: \href{https://www.forbes.com/profile/arjun-gupta/}{\textbf{Arjun Gupta}}, CTO - AuraML}
+          \resumeItemListEnd
+
+
+    \resumeProjectHeading
+          {\href{https://www.ey.com/en_in}{\textbf{Ernst and Young}} \emph{$|$ Generative AI Intern}}
+          {\hfill May 2025 -- July 2025}
+          \resumeItemListStart
+            \resumeItem{Implemented BEAT flow optimization pipeline for business working pipelines using Graph Diffusion networks}
+            \resumeItem{Advisory Lead: \href{https://in.linkedin.com/in/rajat-gupta-1110}{\textbf{Rajat Gupta}}, Senior Manager, Data Science – Ernst and Young}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\href{https://robotics.iiit.ac.in/}{\textbf{Robotics Research Centre, IIIT Hyderabad}} \emph{$|$ Undergraduate Researcher}}
+          {\hfill April 2025 -- July 2025}
+          \resumeItemListStart
+            \resumeItem{Conducted research to develop generalized skill-based models in Reinforcement Learning using Diffusion Models and Sparse MoE-frameworks for VLA tasks}
+            \resumeItem{Developing Multi-Task RL frameworks}
+            \resumeItem{Advisor: \href{https://robotics.iiit.ac.in/faculty_mkrishna/}{\textbf{KM Krishna}}, Professor and Lab Head, Robotics Research Centre – IIIT Hyderabad}
+          \resumeItemListEnd
+          
+
+          
+      \resumeProjectHeading
+          {\href{https://www.kcdh.iitb.ac.in/}{\textbf{Koita Centre for Digital Health, IIT Bombay}} \emph{$|$ Machine Learning Engineer}}
+          {\hfill  May 2024 -- Oct 2024}
+          \resumeItemListStart
+            \resumeItem{Implementing pipelines for RAG assisted content generation, OCR correction and content assisted Image reconstruction for medical applications as part of the Digital Health Team}
+
+            \resumeItem{Project Chair Professor: \href{https://www.cse.iitb.ac.in/~ganesh/}{\textbf{Ganesh Ramakrishnan}}, Koita Centre for Digital Health – IIT Bombay; Supervisor: \href{https://www.linkedin.com/in/kundeshwar/?originalSubdomain=in}{\textbf{Kundeshwar Pundalik}}, Sr. Generative AI Engineer}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\href{https://konectu.in/}{\textbf{KonectU}} \emph{$|$ Generative AI Engineer}}
+          {\hfill  May 2024 -- Oct 2024}
+          \resumeItemListStart
+            \resumeItem{Implemented foundational RAG assisted LAM model to autonomously cater a student's application process as part of the early-stage team in this startup, implemented proof of concept models}
+            
+            \resumeItem{Supervisor: \href{https://www.linkedin.com/in/kundeshwar/?originalSubdomain=in}{\textbf{Kundeshwar Pundalik}, }, Co-Founder and CTO, KonectU}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\href{https://sites.google.com/view/comparch-machinelearning-lab/home}{\textbf{C.A.N.D.L.E Research Lab, IIT Roorkee $|$ BOSCH}} \emph{$|$ Undergraduate Researcher}}
+          {\hfill Dec 2023 -- Present}
+          \resumeItemListStart
+            \resumeItem{Conducting research in collaboration with \href{https://www.bosch-ai.com/}{BOSCH} on Geometric manipulation of latent manifolds of Diffusion Models for Editing, Conditioning, and Interpretability}
+            \resumeItem{Synthetic Data Generation using Latent Space Conditioning of Diffusion Models pretrained on fixed length data to arbitrary length data, and Interpretability in Generative Vision Models}
+            \resumeItem{Previous research experience includes in Multi-Modal model compression, Neural Architectural Search, Approximate computing, Image Processing and Compression techniques}
+            \resumeItem{Advisor: \href{https://faculty.iitr.ac.in/~sparshfec/}{\textbf{Sparsh Mittal}}, Associate Professor, C.A.N.D.LE Research Lab – IIT Roorkee}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+
+    \item
+    \textbf{Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability in Vision-Language Models} \\
+    \textit{TMLR 2025} $|$
+    \href{https://reproml.org/}{\textit{MLRC 2025}} $|$
+    \faStar { }\href{https://x.com/repro_challenge/status/1954935709380247575}{\underline{Best Paper Award}}
+    $|$ \faEye { }\href{https://openreview.net/forum?id=5L90cl0xtf&noteId=7yskfQI5KW}{\underline{Open Review}}
+    $|$
+    \faFilePdfO { }\href{https://arxiv.org/abs/2506.22982}{\underline{arXiv}}    
+    $|$ 
+    \faGithub { }\href{https://github.com/Swadesh06/Revisting_CroPA}{\underline{Code}}
+    {\hfill June 2025}
+      \begin{itemize}
+        \resumeItem{Reproducing \textit{"An Image is Worth 1000 Lies: Adversarial Transferability Across Prompts on Vision-Language Models"s}, analyzing it's limitations in an attempt to further enhance Cross Prompt Attacks for VLMs}
+        \resumeItem{Introduced a novel initialization technique based on providing better attributes to initial noise using Diffusion Models, Improved Cross-Model Transferability and ASR performance}
+      \end{itemize}
+
+
+      \clearpage
+
+      
+
+      % \item
+      % \textbf{CAST++: Enhanced Segmentation-aided Recognition framework for ViT-based architectures} \\
+      % \textit{Under Preparation, TMLR 2025}  {\hfill April 2025}
+      % \begin{itemize}
+      %   \resumeItem{Reproducing the paper "Learning Hierarchical Segmentation by Recognition for Recognition" and extended it to cover SoTA benchmarks and models}
+      %   \resumeItem{Introduced an improved graph pooling method, critically analyzed robustness implications of segmentation aided recognition}
+      % \end{itemize}
+
+    \item
+    \textbf{Riemann Sum Optimization for Accurate Integrated Gradients Computation} \\
+    \href{https://neurips.cc/virtual/2024/workshop/84733}{\textit{NeurIPS 2024, Interpretable AI Workshop}} 
+    $|$
+    \faFilePdfO { }\href{https://arxiv.org/abs/2410.04118}{\underline{arXiv}}
+    $|$
+    \faGithub { }\href{https://github.com/ShreeSinghi/RiemannOpt}{\underline{Code}} \hfill Dec 2024
+      \begin{itemize}
+        \resumeItem{Developed \textbf{RiemannOpt}, a framework to optimize sample point selection for Riemann Sum approximations in Integrated Gradients methods}
+        \resumeItem{Reduced computational costs by up to 4x while maintaining similar performance to baseline methods}
+      \end{itemize}
+
+    \item
+      \textbf{Synthetic Signal Generation with Diffusion Models} \\
+      \textit{Under Preparation}  {\hfill June 2025}
+      \begin{itemize}
+        \resumeItem{Devising a resource-efficient data generation pipeline for synthetic data generation of vibrational accelerometer signals of ball bearings}
+        \resumeItem{Introduced a lightweight diffusion architectures achieving 99.7\% discriminator confidence against real data, trained with only 100 samples per-class of real-data}
+      \end{itemize}
+      
+    \end{itemize}
+    
+%-----------PROJECTS-----------
+\section{Projects and Research Work}
+    \resumeSubHeadingListStart
+
+
+      \resumeProjectHeading
+          {\href{https://2025.ieeeicassp.org/sp-cup/}{\textbf{IEEE Signal Processing Cup, ICASSP 2025}} \emph{$|$ Team Member} $|$     
+          \faGithub{}
+          \href{https://github.com/Swadesh06/DFWild_Cup/blob/main/Technical_report.pdf}{\underline{Project Report}}}
+          {\hfill  Sep 2024 -- Feb 2025}
+          \resumeItemListStart
+            \resumeItem{A team research project aimed at finding optimal methods for advanced Deepfake detection in images, submitted to the IEEE Signal Processing Cup, ICASSP 2025}
+            \resumeItem{Advisor: \href{https://faculty.iitr.ac.in/~sparshfec/}{\textbf{Vinod Pankajakshan}}, Associate Professor, Vision and Image Processing Lab – IIT Roorkee}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{Deep RL-enabled Fortnite Agent}}
+          {Oct 2024 -- May 2024}
+          \resumeItemListStart
+            \resumeItem{A team project ongoing under Data Science Group, to develop an agent to play the highly complex game "Fortnite", using multi-linear ICVF via temporal difference learning and DreamerV3 as world model}
+            \resumeItem{NVIDIA's COSMOS used as the embedding model to embed video streams for training}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Reproducing UPoP}  $|$ \faGithub { } \href{https://github.com/Swadesh06/BYOP_Repro_UPop}{\underline{Code}}}
+          {Dec 2023 -- Feb 2024}
+          \resumeItemListStart
+            \resumeItem{Reproduced results for paper titled UPop: Unified and Progressive Pruning for Compressing Vision-Language Transformers, ICML 2023, for DeiT model, under the BYOP Reproducibility Track 2024}
+            \resumeItem{Conducted Extensive ablation study and introduced enhancements for optimizations}
+            \resumeItem{Achieved 90\% model compression with a mere 5.5\% accuracy drop}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{LLM-AI-Generated-Text-Classification} $|$ \faGithub { } \href{https://github.com/Swadesh06/LLM-AI-Genrated-Text-Classification}{\underline{Code}}}
+          {Dec 2023 -- Jan 2024}
+          \resumeItemListStart
+            \resumeItem{Open research project with Vision and Language Group, focused on identifying AI generated text and enhancing robustness against artificial content}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+
+
+%-----------LEADERSHIP-----------
+\section{Leadership \& Activities}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{\href{https://dsgiitr.github.io/dsg-website/}{Data Science Group}, IIT Roorkee} $|$ \emph{Joint Secretary}}
+          {Sep 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Worked on open-source projects and research in the domain of Computer Vision, Diffusion Models, VLMs, Robustness and Explainability}
+            \resumeItem{Managed and organized lectures, workshops, hackathons spanning the field of Data Science and AI}
+            \resumeItem{Our team publishes research at several A* conferences such as NeurIPS, CVPR, ICLR, with most works lead solely by undergraduate authors}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+          {\textbf{\href{https://ir.iitr.ac.in/HomePage}{International Relations Cell}} $|$ \emph{Joint Secretary}}
+          {Sep 2023 -- May 2025}
+          \resumeItemListStart
+            \resumeItem{Created database of research and contacts for various programs and scholarships abroad available for IIT Roorkee students}
+            \resumeItem{Organizing various talk/interview events with partnerships from universities and students from abroad}
+          \resumeItemListEnd
+          
+    %   \resumeProjectHeading
+    %       {\textbf{Electronics and Communication Students' Society} $|$ \emph{Junior Member}}
+    %       {Sep 2023 -- April 2025}
+    %       \resumeItemListStart
+    %         \resumeItem{Organized research projects for undergrads in Electronics and Communication Engineering, fostering collaboration with faculty}
+    %         \resumeItem{Also conducting expert talks, workshops, hackathons for practical applications and real-world trends in the same}
+    %       \resumeItemListEnd
+    % \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Selected Awards and Honors}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+\setlength\itemsep{0.02in}
+    \resumeItem{{
+     {HOD Appreciation Letter for Highest Increase in SGPA in a single semester}
+    }}
+    \resumeItem{{
+     {Nominated as Institute Representative for NVIDIA AI Summit, Mumbai, India, 2024}
+    }}
+    \resumeItem{{
+     {All India Rank 1423 out of 1M+ candidates in JEE Advanced 2022}
+    }}
+    \resumeItem{{
+     {All India Rank 1697 out of 1M+ candidates in JEE Mains 2022}
+    }}
+ \end{itemize}
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+ \setlength\itemsep{-0.03in}
+    \small{\item{
+     \textbf{Languages}{: Fluent in English, Hindi, and Gujarati. Conversation in Oriya}
+    }}
+    \small{\item{
+     \textbf{Programming Languages and APIs}{: Python, Java, C/C++, Verilog, RISC-V Assembly, Assembly, OpenCV, TensorFlow, TensorFlow Lite, PyTorch}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
