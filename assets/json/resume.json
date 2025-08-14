@@ -5,7 +5,7 @@
     "image": "",
     "email": "swadesh_s@ece.iitr.ac.in",
     "phone": "",
-    "url": "https://www.iitr.ac.in/",
+    "url": "https://swadesh06.github.io/",
     "summary": "Undergraduate researcher and student at IIT Roorkee specializing in Machine Learning, Computer Vision, and Generative AI with extensive research experience across multiple prestigious institutions and industry collaborations.",
     "location": {
       "address": "",
@@ -32,7 +32,7 @@
       }
     ]
   },
-  "work": [
+  "Experience": [
     {
       "name": "Virginia Tech",
       "position": "Research Intern",
@@ -51,7 +51,7 @@
       "url": "https://www.auraml.com/",
       "startDate": "2025-06-01",
       "endDate": "",
-      "summary": "Implementing text-to-3D scene generation frameworks with Graph Diffusion Models",
+      "summary": "Implementing text-to-3D scene generation frameworks",
       "highlights": [
         "Implementing text-to-3D scene generation frameworks with Graph Diffusion Models",
         "Created a text to 3D warehouse generator and editor accessible by an extension through Isaac-Sim for industrial simulation applications",
@@ -122,7 +122,7 @@
       ]
     }
   ],
-  "volunteer": [
+  "Leadership & Activities": [
     {
       "organization": "Data Science Group, IIT Roorkee",
       "position": "Joint Secretary",
@@ -154,7 +154,7 @@
       "institution": "Indian Institute of Technology Roorkee",
       "url": "https://www.iitr.ac.in/",
       "area": "Electronics and Communication Engineering",
-      "studyType": "Bachelor of Technology",
+      "studyType": "Bachelor of Technology : Electronics and Communication Engineering",
       "startDate": "2022-10-01",
       "endDate": "2026-06-01",
       "score": "7.5/10.0",
@@ -181,34 +181,34 @@
       "courses": []
     }
   ],
-  "awards": [
+  "Selected Awards and Honors": [
     {
       "title": "HOD Appreciation Letter for Highest Increase in SGPA in a single semester",
-      "date": "",
+      "date": "2024-01",
       "awarder": "IIT Roorkee",
       "summary": "Recognition for academic excellence and improvement"
     },
     {
       "title": "Institute Representative for NVIDIA AI Summit",
-      "date": "2024-01-01",
+      "date": "2024-01",
       "awarder": "IIT Roorkee",
       "summary": "Nominated as Institute Representative for NVIDIA AI Summit, Mumbai, India, 2024"
     },
     {
       "title": "JEE Advanced All India Rank 1423",
-      "date": "2022-01-01",
+      "date": "2022-10",
       "awarder": "NTA",
       "summary": "All India Rank 1423 out of 1M+ candidates in JEE Advanced 2022"
     },
     {
       "title": "JEE Mains All India Rank 1697",
-      "date": "2022-01-01",
+      "date": "2022-08",
       "awarder": "NTA",
       "summary": "All India Rank 1697 out of 1M+ candidates in JEE Mains 2022"
     },
     {
       "title": "Best Paper Award",
-      "date": "2025-06-01",
+      "date": "2025-08",
       "awarder": "MLRC 2025",
       "summary": "Best Paper Award for 'Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability in Vision-Language Models'"
     }
@@ -237,72 +237,6 @@
       "summary": "Devising a resource-efficient data generation pipeline for synthetic data generation of vibrational accelerometer signals of ball bearings. Introduced a lightweight diffusion architectures achieving 99.7% discriminator confidence against real data, trained with only 100 samples per-class of real-data."
     }
   ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "level": "Advanced",
-      "keywords": [
-        "Python",
-        "Java",
-        "C/C++",
-        "Verilog",
-        "RISC-V Assembly",
-        "Assembly"
-      ]
-    },
-    {
-      "name": "Machine Learning Frameworks",
-      "level": "Advanced",
-      "keywords": [
-        "OpenCV",
-        "TensorFlow",
-        "TensorFlow Lite",
-        "PyTorch"
-      ]
-    },
-    {
-      "name": "Research Areas",
-      "level": "Advanced",
-      "keywords": [
-        "Computer Vision",
-        "Diffusion Models",
-        "Generative AI",
-        "Vision-Language Models",
-        "Reinforcement Learning",
-        "Interpretability"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Hindi",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Gujarati",
-      "fluency": "Fluent"
-    },
-    {
-      "language": "Oriya",
-      "fluency": "Conversational"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Research",
-      "keywords": [
-        "Machine Learning",
-        "Computer Vision",
-        "Artificial Intelligence",
-        "Generative Models"
-      ]
-    }
-  ],
-  "references": [],
   "projects": [
     {
       "name": "IEEE Signal Processing Cup, ICASSP 2025",
@@ -342,9 +276,74 @@
       "endDate": "2024-01-01",
       "description": "Open research project with Vision and Language Group, focused on identifying AI generated text and enhancing robustness against artificial content",
       "highlights": [
-        "AI-generated text detection research"
+        "AI-generated text detection"
       ],
       "url": "https://github.com/Swadesh06/LLM-AI-Genrated-Text-Classification"
     }
-  ]
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "Verilog",
+        "RISC-V Assembly",
+        "Assembly"
+      ]
+    },
+    {
+      "name": "Machine Learning Frameworks",
+      "level": "Advanced",
+      "keywords": [
+        "PyTorch",
+        "OpenCV",
+        "TensorFlow",
+        "TensorFlow Lite",
+        "LangChain"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Gujarati",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Oriya",
+      "fluency": "Conversational"
+    }
+  ],
+  "Interests": [
+    {
+      "name": "Research",
+      "keywords": [
+        "Interpretability",
+        "Alignment",
+        "Diffusion Models",
+        "Vision-Language Models"
+      ]
+    },
+
+    {
+      "name": "Extra-Curricular",
+      "keywords": [
+        "Soccer",
+        "Formula 1",
+        "Reading",
+        "Swimming"
+      ]
+    }
+  ],
+  "references": []
+
 }
