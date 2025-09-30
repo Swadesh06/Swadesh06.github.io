@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-experience",
-          title: "experience",
-          description: "Work and research experience in reversed chronological order.",
+        },{id: "nav-activities",
+          title: "activities",
+          description: "Leadership and activities in reversed chronological order.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/experience/";
+            window.location.href = "/activities/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -416,7 +416,55 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-ieee-signal-processing-cup-icassp-2025",
+          section: "News",},{id: "news-i-will-be-joining-the-bharatgen-team-at-indian-institute-of-technology-iit-bombay-as-machine-learning-research-intern-this-summer",
+          title: 'I will be joining the BharatGen Team at Indian Institute of Technology (IIT)...',
+          description: "",
+          section: "News",},{id: "news-my-debut-paper-riemann-sum-optimization-for-accurate-integrated-gradients-computation-has-been-accepted-to-the-neurips-2024-interpretable-ai-workshop",
+          title: 'My debut paper “Riemann Sum Optimization for Accurate Integrated Gradients Computation” has been...',
+          description: "",
+          section: "News",},{id: "news-here-at-neurips-to-attend-my-first-ever-in-person-conference",
+          title: 'Here at NeurIPS to attend my first ever in-person conference!',
+          description: "",
+          section: "News",},{id: "news-i-will-be-joining-robotics-research-centre-iiit-hyderabad-as-undergraduate-research-intern-for-the-summer",
+          title: 'I will be joining Robotics Research Centre, IIIT Hyderabad as undergraduate research intern...',
+          description: "",
+          section: "News",},{id: "news-i-will-be-joining-auraml-as-a-research-intern-to-work-on-cutting-edge-generative-3d-vision-for-industrial-simulation-applications",
+          title: 'I will be joining AuraML as a Research Intern to work on cutting...',
+          description: "",
+          section: "News",},{id: "news-our-work-revisiting-cropa-a-reproducibility-study-and-enhancements-for-cross-prompt-adversarial-transferability-in-vision-language-models-has-been-accepted-into-tmlr-journal",
+          title: 'Our work “Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability...',
+          description: "",
+          section: "News",},{id: "news-revisiting-cropa-is-further-accepted-at-the-machine-learning-reproducibility-challenge",
+          title: 'Revisiting CroPA is further accepted at the Machine Learning Reproducibility Challenge.',
+          description: "",
+          section: "News",},{id: "news-our-work-revisiting-cropa-a-reproducibility-study-and-enhancements-for-cross-prompt-adversarial-transferability-in-vision-language-models-is-the-recipient-of-best-paper-at-the-machine-learning-reproducibility-challenge-at-princeton-university-catch-the-tweet-here",
+          title: 'Our work “Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability...',
+          description: "",
+          section: "News",},{id: "news-attending-mlrc-at-princeton-university-super-excited-to-present-our-first-oral-presentation",
+          title: 'Attending MLRC at Princeton University! Super excited to present our first oral presentation!...',
+          description: "",
+          section: "News",},{id: "news-fortunate-to-be-accepted-by-professor-nagendra-aneja-at-virginia-tech-to-pursue-applied-interpretability-research-under-his-guidance-our-work-involves-designing-user-intervenable-reasoning-agents-for-on-the-fly-steering-of-llms",
+          title: 'Fortunate to be accepted by Professor Nagendra Aneja at Virginia Tech to pursue...',
+          description: "",
+          section: "News",},{id: "news-my-paper-cropa-exposing-vulnerabilities-in-vision-language-models-and-enhancing-adversarial-transferability-of-cross-prompt-attacks-has-been-accepted-at-the-neurips-reliable-ml-workshop-2025",
+          title: 'My paper “CroPA++: Exposing Vulnerabilities in Vision Language Models and Enhancing Adversarial Transferability...',
+          description: "",
+          section: "News",},{id: "projects-tlb-and-page-table-simulation",
+          title: 'TLB and Page Table Simulation',
+          description: "Virtual memory management system implementation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-risc-v-factorian-number-program",
+          title: 'RISC-V Factorian Number Program',
+          description: "Assembly language programming for mathematical computation",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
+            },},{id: "projects-reproducing-upop",
+          title: 'Reproducing UPoP',
+          description: "Vision transformer compression through unified progressive pruning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
+            },},{id: "projects-ieee-signal-processing-cup-icassp-2025",
           title: 'IEEE Signal Processing Cup, ICASSP 2025',
           description: "Advanced Deepfake Detection Research Project",
           section: "Projects",handler: () => {
@@ -436,6 +484,31 @@ ninja.data = [{
           description: "Detecting AI-Generated Content and Enhancing Robustness",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-cnn-on-fpga-for-mnist-digit-classification",
+          title: 'CNN on FPGA for MNIST Digit Classification',
+          description: "Hardware implementation of neural networks on FPGA",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
+            },},{id: "projects-pdf-answering-ai",
+          title: 'PDF Answering AI',
+          description: "Local RAG pipeline for PDF question answering",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-energy-landscapes-case-study",
+          title: 'Energy Landscapes Case Study',
+          description: "Philippines and Costa Rica energy policy analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
+            },},{id: "projects-village-science-lab-setup",
+          title: 'Village Science Lab Setup',
+          description: "Science education initiative for rural development",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_project/";
+            },},{id: "projects-ltspice-circuit-simulations",
+          title: 'LTSpice Circuit Simulations',
+          description: "MOSFET amplifier design and analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
