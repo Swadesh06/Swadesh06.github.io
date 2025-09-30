@@ -1,5 +1,5 @@
 ---
-redirect: ../assets/pdf/CV_Swadesh_Swain.pdf
+redirect: /assets/pdf/Swadesh_Swain_CV.pdf
 permalink: /cv/
 title: cv
 nav: true
