@@ -28,10 +28,7 @@ nav_order: 4
     <div class="periodical">
       <em>Sep 2025 – Present</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Contributing to the reviewing discourse of submitted research works at TMLR</p>
     </div>
   </div>
@@ -54,10 +51,7 @@ nav_order: 4
     <div class="periodical">
       <em>Jan 2024 – Present</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Worked on open-source projects and research in the domain of Computer Vision, Diffusion Models, VLMs, Robustness and Explainability</p>
       <p>Managed and organized lectures, workshops, hackathons spanning the field of Data Science and AI</p>
       <p>Our team publishes research at several A* conferences such as NeurIPS, CVPR, ICLR, with most works lead solely by undergraduate authors</p>
@@ -80,10 +74,7 @@ nav_order: 4
     <div class="periodical">
       <em>June 2024 – Present</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Executed waste management campaigns for the campus, took part in organizing various competitions with sustainability themes for annual fests of IIT Roorkee</p>
       <p>Various awareness sustainability campaigns, and overseeing documentation and editorial workflow</p>
     </div>
@@ -105,10 +96,7 @@ nav_order: 4
     <div class="periodical">
       <em>Apr 2024 – May 2025</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Created database of research and contacts for various programs and scholarships abroad available for IIT Roorkee students</p>
       <p>Organizing various talk/interview events with partnerships from universities and students from abroad</p>
     </div>
@@ -132,10 +120,7 @@ nav_order: 4
     <div class="periodical">
       <em>Aug 2023 – May 2024</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Executed on ground execution of rural development initiatives with the UBA team, market research and development for consumer products by SHGs of our village</p>
       <p>Took part in research to execution for initiatives in our assigned village</p>
     </div>
@@ -157,10 +142,7 @@ nav_order: 4
     <div class="periodical">
       <em>Sep 2023 – Present</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Involved in organization of career talks and workshops for ECE and related fields to spread knowledge in the fields</p>
       <p>Provide people with hands-on experience at practical applications and real world trends</p>
     </div>
@@ -182,10 +164,7 @@ nav_order: 4
     <div class="periodical">
       <em>Apr 2023 – June 2024</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Handled on-campus logistics for GAMBITOR, a nation-wide university entrance level exam for IIT-JEE Aspirants, where top performers are invited to the IIT Roorkee campus for a series of competitions</p>
       <p>Executive technical member in conducting the Open-House Session for the first time in IIT Roorkee</p>
     </div>
@@ -207,10 +186,7 @@ nav_order: 4
     <div class="periodical">
       <em>July 2023 – Feb 2024</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Installation of new equipment in entertainment centres and overseeing the regulation of sports equipment</p>
       <p>Addressing issues related to maintenance of sports facilities within the Bhawan and their proper regulation</p>
     </div>
@@ -234,10 +210,7 @@ nav_order: 4
     <div class="periodical">
       <em>Nov 2022 – June 2023</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Conduction of Intra Bhawan Sports Tournament, Bhawan Day, E sports Tournament, Intra College Sports Tournament</p>
       <p>Addressing issues related to maintenance of sports facilities within the Bhawan and their proper regulation along with installation of new equipment</p>
     </div>
@@ -259,23 +232,10 @@ nav_order: 4
     <div class="periodical">
       <em>Dec 2022</em>
     </div>
-    <div class="links">
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    </div>
-    <div class="abstract hidden">
+    <div class="abstract" style="display: block;">
       <p>Sports Volunteer at the 55th Inter IIT Sports Meet, participated in managing the games and logistics for various sports</p>
     </div>
   </div>
 </div>
 
 </div>
-
-<script>
-// Add toggle functionality for abstracts
-$(document).ready(function() {
-  $('.abstract').click(function() {
-    var $abstract = $(this).closest('.col-sm-8').find('.abstract.hidden');
-    $abstract.toggle();
-  });
-});
-</script>
