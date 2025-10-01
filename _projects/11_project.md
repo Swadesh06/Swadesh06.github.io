@@ -4,7 +4,7 @@ title: RISC-V Factorian Number Program
 description: Assembly language programming for mathematical computation
 img: assets/img/11.jpg
 importance: 11
-category: work
+category: course project
 ---
 
 ## Overview

@@ -4,7 +4,7 @@ title: Village Science Lab Setup
 description: Science education initiative for rural development
 img: assets/img/8.jpg
 importance: 8
-category: work
+category: social impact
 ---
 
 ## Overview
@@ -16,7 +16,7 @@ A rural development initiative conducted under Unnat Bharat Abhiyan (UBA) to est
 **Duration:** October 2023 – April 2024  
 **Affiliation:** Unnat Bharat Abhiyan, IIT Roorkee  
 **Location:** Rithaura Grunt Village  
-**Role:** Team Member
+**Role:** Project Lead and Initiative Coordinator
 
 ## Mission
 

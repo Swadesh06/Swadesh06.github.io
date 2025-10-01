@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-09-30 00:00:00-0000
+date: 2025-08-11 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-My paper "CroPA++: Exposing Vulnerabilities in Vision Language Models and Enhancing Adversarial Transferability of Cross-Prompt Attacks" has been accepted at the NeurIPS Reliable ML Workshop, 2025!
+Our work "Revisiting CroPA: A Reproducibility Study and Enhancements for Cross-Prompt Adversarial Transferability in Vision-Language Models" is the recipient of Best Paper at the Machine Learning Reproducibility Challenge at Princeton University! Catch the tweet <a href="https://x.com/repro_challenge/status/1954935709380247575">here</a>.
 

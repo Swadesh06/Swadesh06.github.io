@@ -4,7 +4,7 @@ title: PDF Answering AI
 description: Local RAG pipeline for PDF question answering
 img: assets/img/6.jpg
 importance: 6
-category: work
+category: open projects
 ---
 
 ## Overview

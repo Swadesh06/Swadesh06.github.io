@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-06-02 00:00:00-0000
+date: 2024-10-10 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-I will be joining <a href="https://www.aurasim.ai/">AuraML</a> as a Research Intern to work on cutting edge Generative 3D Vision for industrial simulation applications.
+My debut paper "Riemann Sum Optimization for Accurate Integrated Gradients Computation" has been accepted to the NeurIPS 2024, Interpretable AI Workshop!
 

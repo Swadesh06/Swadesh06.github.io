@@ -4,7 +4,7 @@ title: Energy Landscapes Case Study
 description: Philippines and Costa Rica energy policy analysis
 img: assets/img/7.jpg
 importance: 7
-category: work
+category: social impact
 ---
 
 ## Overview

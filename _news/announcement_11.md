@@ -1,9 +1,9 @@
 ---
 layout: post
-date: 2025-04-15 00:00:00-0000
+date: 2024-04-04 00:00:00-0000
 inline: true
 related_posts: false
 ---
 
-I will be joining <a href="https://robotics.iiit.ac.in/">Robotics Research Centre, IIIT Hyderabad</a> as undergraduate research intern for the summer.
+I will be joining the BharatGen Team at Indian Institute of Technology (IIT) Bombay as Machine Learning Research intern this summer.
 

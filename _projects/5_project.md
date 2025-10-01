@@ -4,7 +4,7 @@ title: CNN on FPGA for MNIST Digit Classification
 description: Hardware implementation of neural networks on FPGA
 img: assets/img/5.jpg
 importance: 5
-category: work
+category: course project
 ---
 
 ## Overview

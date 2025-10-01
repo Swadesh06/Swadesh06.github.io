@@ -4,7 +4,7 @@ title: LLM AI-Generated Text Classification
 description: Detecting AI-Generated Content and Enhancing Robustness
 img:
 importance: 4
-category: work
+category: open projects
 ---
 
 ## Overview

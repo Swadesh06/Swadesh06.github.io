@@ -1,10 +1,10 @@
 ---
 layout: page
 title: IEEE Signal Processing Cup, ICASSP 2025
-description: Advanced Deepfake Detection Research Project
+description: Deepfake Detection Research Project
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: research
 ---
 
 ## Overview
