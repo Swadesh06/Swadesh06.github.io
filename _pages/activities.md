@@ -2,7 +2,7 @@
 layout: page
 permalink: /activities/
 title: activities
-description: Leadership and activities in reversed chronological order.
+description: Leadership and activities I've taken up spanning my interests.
 nav: true
 nav_order: 4
 ---
