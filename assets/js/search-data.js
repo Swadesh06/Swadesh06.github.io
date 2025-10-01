@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-activities",
           title: "activities",
-          description: "Leadership and activities in reversed chronological order.",
+          description: "Leadership and activities I&#39;ve taken up spanning my interests.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/activities/";
