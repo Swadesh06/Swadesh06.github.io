@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A snippet of all the cool things I dabbled in to get my hands dirty.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -398,18 +398,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-will-be-joining-the-bharatgen-team-at-indian-institute-of-technology-iit-bombay-as-machine-learning-research-intern-this-summer",
+            },},{id: "news-i-will-be-joining-the-bharatgen-team-at-indian-institute-of-technology-iit-bombay-as-machine-learning-research-intern-this-summer",
           title: 'I will be joining the BharatGen Team at Indian Institute of Technology (IIT)...',
           description: "",
           section: "News",},{id: "news-my-debut-paper-riemann-sum-optimization-for-accurate-integrated-gradients-computation-has-been-accepted-to-the-neurips-2024-interpretable-ai-workshop",
@@ -452,14 +441,9 @@ ninja.data = [{
           description: "Assembly language programming for mathematical computation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
-            },},{id: "projects-reproducing-upop",
-          title: 'Reproducing UPoP',
-          description: "Vision transformer compression through unified progressive pruning",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/12_project/";
             },},{id: "projects-ieee-signal-processing-cup-icassp-2025",
           title: 'IEEE Signal Processing Cup, ICASSP 2025',
-          description: "Advanced Deepfake Detection Research Project",
+          description: "Deepfake Detection Research Project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-deep-rl-enabled-fortnite-agent",
@@ -469,7 +453,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-reproducing-upop",
           title: 'Reproducing UPoP',
-          description: "Vision-Language Transformer Compression Research",
+          description: "Vision transformer compression through unified progressive pruning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-llm-ai-generated-text-classification",
