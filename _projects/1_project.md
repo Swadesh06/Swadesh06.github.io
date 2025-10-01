@@ -5,6 +5,7 @@ description: Deepfake Detection Research Project
 img: assets/img/12.jpg
 importance: 1
 category: research
+github : https://github.com/Swadesh06/DFWild_Cup
 ---
 
 ## Overview
@@ -23,18 +24,13 @@ Our team aimed to develop cutting-edge techniques for detecting sophisticated de
 
 ## Key Contributions
 
-- Developed novel algorithms for deepfake detection with enhanced accuracy
-- Implemented state-of-the-art computer vision techniques for media forensics
+- Developed a novel multi-transform approach for deepfake detection
 - Conducted comprehensive evaluation on challenging deepfake datasets
-- Collaborated with international teams in the IEEE Signal Processing Cup competition
+- Submitted in the IEEE Signal Processing Cup competition
 
 ## Documentation
 
 **Technical Report:** [Project Report](https://github.com/Swadesh06/DFWild_Cup/blob/main/Technical_report.pdf)
-
-## Impact
-
-This project contributed to the broader research community's understanding of deepfake detection methodologies and provided practical solutions for digital media verification challenges.
 
 ---
 
