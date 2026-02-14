@@ -1,51 +1,37 @@
 ---
 layout: page
 title: Deep RL-enabled Fortnite Agent
-description: Advanced Reinforcement Learning for Complex Gaming Environments
+description: Deep RL agent design for large action-space game environments
 img: assets/img/3.jpg
 importance: 2
 category: open projects
 ---
 
-## Overview
+## Summary
 
-This ongoing team project, conducted under the Data Science Group, focuses on developing an intelligent agent capable of playing the highly complex battle royale game "Fortnite" using state-of-the-art deep reinforcement learning techniques.
+Open project under the Data Science Group, IIT Roorkee to build a reinforcement-learning agent for Fortnite.
 
-## Project Details
-
-**Duration:** October 2024 – May 2025  
+**Duration:** October 2024 -- May 2025  
 **Affiliation:** Data Science Group, IIT Roorkee  
-**Role:** Team Member  
+**Role:** Team Member
 
-## Technical Approach
+## Technical Direction
 
-Our approach combines several cutting-edge techniques to tackle the multi-faceted challenges of Fortnite gameplay:
+- **World model:** DreamerV3 for model-based planning.
+- **Value learning:** Multi-linear ICVF with temporal-difference updates.
+- **Visual encoding:** NVIDIA COSMOS embeddings from gameplay video.
 
-### Core Technologies
+## Core Problems
 
-- **Multi-linear ICVF (Implicit Conditional Value Functions):** Implementing temporal difference learning for value-based decision making
-- **DreamerV3:** Utilizing as the world model to predict future states and plan optimal actions
-- **NVIDIA COSMOS:** Employed as the embedding model to process and embed video streams for training
+- Very large action space.
+- Multi-agent interaction and partial observability.
+- Long-horizon decision making.
+- Real-time visual state understanding.
 
-## Challenges Addressed
+## Current Scope
 
-1. **Complex Action Spaces:** Managing the vast array of possible actions in Fortnite's dynamic environment
-2. **Multi-agent Dynamics:** Handling interactions with multiple opponents in real-time
-3. **Long-term Planning:** Balancing immediate rewards with strategic long-term objectives
-4. **Visual Understanding:** Processing complex visual information from game streams
+- Environment setup and state encoding pipeline.
+- Reward shaping and policy training loops.
+- Evaluation on tactical and survival objectives.
 
-## Technical Implementation
-
-The project integrates:
-- Advanced computer vision techniques for game state understanding
-- Sophisticated reinforcement learning algorithms for decision making
-- Real-time processing capabilities for responsive gameplay
-- Multi-modal learning approaches combining visual and strategic information
-
-## Innovation
-
-This project pushes the boundaries of RL applications in complex, dynamic environments and contributes to the advancement of AI agents in competitive gaming scenarios.
-
----
-
-*This project represents a significant challenge in applying modern deep reinforcement learning to one of the most complex and dynamic gaming environments available today.*
+This project is ongoing.

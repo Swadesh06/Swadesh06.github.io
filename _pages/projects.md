@@ -5,7 +5,7 @@ permalink: /projects/
 description: A snippet of all the cool things I dabbled in to get my hands dirty.
 nav: true
 nav_order: 3
-display_categories: [research, course project, open projects, social impact]
+display_categories: [research, open projects, course project, social impact]
 horizontal: false
 ---
 
