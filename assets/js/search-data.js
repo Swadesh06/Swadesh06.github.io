@@ -448,57 +448,57 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-tlb-and-page-table-simulation",
           title: 'TLB and Page Table Simulation',
-          description: "Virtual memory management system implementation",
+          description: "Virtual memory translation simulation in C++",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
             },},{id: "projects-risc-v-factorian-number-program",
           title: 'RISC-V Factorian Number Program',
-          description: "Assembly language programming for mathematical computation",
+          description: "RISC-V assembly implementation for Factorian-number checking",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
             },},{id: "projects-ieee-signal-processing-cup-icassp-2025",
           title: 'IEEE Signal Processing Cup, ICASSP 2025',
-          description: "Deepfake Detection via Multi-Transform Ensemble with Custom Attention",
+          description: "Deepfake detection using EfficientNet ensembles and multi-transform inputs",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-deep-rl-enabled-fortnite-agent",
           title: 'Deep RL-enabled Fortnite Agent',
-          description: "Advanced Reinforcement Learning for Complex Gaming Environments",
+          description: "Deep RL agent design for large action-space game environments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-reproducing-upop",
           title: 'Reproducing UPoP',
-          description: "Full reimplementation and ablation of Unified Progressive Pruning for Vision Transformers",
+          description: "Reimplementation and ablation of Unified Progressive Pruning for vision transformers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-llm-ai-generated-text-classification",
           title: 'LLM AI-Generated Text Classification',
-          description: "Detecting AI-Generated Content and Enhancing Robustness",
+          description: "Detection of AI-generated text with robustness-focused evaluation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-cnn-on-fpga-for-mnist-digit-classification",
           title: 'CNN on FPGA for MNIST Digit Classification',
-          description: "Hardware implementation of neural networks on FPGA",
+          description: "FPGA implementation of a CNN for real-time digit inference",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-pdf-answering-ai",
           title: 'PDF Answering AI',
-          description: "Local RAG pipeline for PDF question answering",
+          description: "Local retrieval-augmented QA pipeline for PDF documents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
             },},{id: "projects-energy-landscapes-case-study",
           title: 'Energy Landscapes Case Study',
-          description: "Philippines and Costa Rica energy policy analysis",
+          description: "Comparative policy analysis of the Philippines and Costa Rica energy systems",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-village-science-lab-setup",
           title: 'Village Science Lab Setup',
-          description: "Science education initiative for rural development",
+          description: "Rural science-lab infrastructure and curriculum support initiative",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
             },},{id: "projects-ltspice-circuit-simulations",
           title: 'LTSpice Circuit Simulations',
-          description: "MOSFET amplifier design and analysis",
+          description: "MOSFET amplifier analysis using LTSpice",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
