@@ -2,7 +2,7 @@
 layout: page
 title: Village Science Lab Setup
 description: Science education initiative for rural development
-img: assets/img/8.jpg
+img: assets/img/uba_lab.png
 importance: 8
 category: social impact
 ---

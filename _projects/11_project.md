@@ -2,7 +2,7 @@
 layout: page
 title: RISC-V Factorian Number Program
 description: Assembly language programming for mathematical computation
-img: assets/img/11.jpg
+img: assets/img/riscv_factorian.png
 importance: 11
 category: course project
 ---
@@ -223,8 +223,3 @@ fact_done:
 - Memory inspector
 - Instruction pipeline view
 - Breakpoint debugging
-
----
-
-*This project provided fundamental understanding of computer architecture through hands-on assembly programming, bridging high-level algorithms with low-level machine instructions.*
-

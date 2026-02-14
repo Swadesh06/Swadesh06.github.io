@@ -2,7 +2,7 @@
 layout: page
 title: TLB and Page Table Simulation
 description: Virtual memory management system implementation
-img: assets/img/10.jpg
+img: assets/img/tlb.png
 importance: 10
 category: course project
 ---

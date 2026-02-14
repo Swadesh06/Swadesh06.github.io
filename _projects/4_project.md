@@ -2,7 +2,7 @@
 layout: page
 title: LLM AI-Generated Text Classification
 description: Detecting AI-Generated Content and Enhancing Robustness
-img:
+img: assets/img/ai_text_classification.png
 importance: 4
 category: open projects
 ---

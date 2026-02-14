@@ -6,7 +6,7 @@ subtitle: <a href='https://www.iitr.ac.in/'>Indian Institute of Technology Roork
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_picture.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>BTech Student</p>

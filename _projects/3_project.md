@@ -2,7 +2,7 @@
 layout: page
 title: Reproducing UPoP
 description: Full reimplementation and ablation of Unified Progressive Pruning for Vision Transformers
-img: assets/img/12.jpg
+img: assets/img/upop.png
 importance: 12
 category: research
 github: https://github.com/Swadesh06/BYOP_Repro_UPop

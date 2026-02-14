@@ -2,7 +2,7 @@
 layout: page
 title: Deep RL-enabled Fortnite Agent
 description: Advanced Reinforcement Learning for Complex Gaming Environments
-img: assets/img/3.jpg
+img: assets/img/fortnite_agent.png
 importance: 2
 category: open projects
 ---

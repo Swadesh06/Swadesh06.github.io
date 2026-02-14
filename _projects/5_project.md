@@ -2,7 +2,7 @@
 layout: page
 title: CNN on FPGA for MNIST Digit Classification
 description: Hardware implementation of neural networks on FPGA
-img: assets/img/5.jpg
+img: assets/img/cnn_basys.png
 importance: 5
 category: course project
 ---
@@ -62,6 +62,4 @@ This project implements a Convolutional Neural Network (CNN) on FPGA hardware fo
 - Neural network optimization for embedded systems
 
 ---
-
-*This project demonstrates practical application of deep learning on hardware platforms, bridging the gap between algorithm development and real-world deployment.*
 

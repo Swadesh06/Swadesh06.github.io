@@ -2,7 +2,7 @@
 layout: page
 title: PDF Answering AI
 description: Local RAG pipeline for PDF question answering
-img: assets/img/6.jpg
+img: assets/img/pdf_answering_ai.png
 importance: 6
 category: open projects
 ---

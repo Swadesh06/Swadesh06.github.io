@@ -2,7 +2,7 @@
 layout: page
 title: IEEE Signal Processing Cup, ICASSP 2025
 description: Deepfake Detection via Multi-Transform Ensemble with Custom Attention
-img: assets/img/12.jpg
+img: assets/img/sp_cup.png
 importance: 1
 category: research
 github: https://github.com/Swadesh06/DFWild_Cup

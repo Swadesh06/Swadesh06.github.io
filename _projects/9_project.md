@@ -2,7 +2,7 @@
 layout: page
 title: LTSpice Circuit Simulations
 description: MOSFET amplifier design and analysis
-img: assets/img/9.jpg
+img: assets/img/ltpice.png
 importance: 9
 category: course project
 ---
