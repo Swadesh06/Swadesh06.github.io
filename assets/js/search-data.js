@@ -428,8 +428,23 @@ ninja.data = [{
           section: "News",},{id: "news-fortunate-to-be-accepted-by-professor-nagendra-aneja-at-virginia-tech-to-pursue-applied-interpretability-research-under-his-guidance-our-work-involves-designing-user-intervenable-reasoning-agents-for-on-the-fly-steering-of-llms",
           title: 'Fortunate to be accepted by Professor Nagendra Aneja at Virginia Tech to pursue...',
           description: "",
+          section: "News",},{id: "news-excited-to-start-our-research-with-dr-koustuv-sinha-from-meta-ai-fair-on-evaluating-world-model-understanding-of-videolms",
+          title: 'Excited to start our research with Dr. Koustuv Sinha from META AI (FAIR),...',
+          description: "",
           section: "News",},{id: "news-my-paper-cropa-exposing-vulnerabilities-in-vision-language-models-and-enhancing-adversarial-transferability-of-cross-prompt-attacks-has-been-accepted-at-the-neurips-reliable-ml-workshop-2025",
           title: 'My paper “CroPA++: Exposing Vulnerabilities in Vision Language Models and Enhancing Adversarial Transferability...',
+          description: "",
+          section: "News",},{id: "news-excited-to-finally-start-my-collaboration-with-prof-sanghamitra-dutta-from-the-university-of-maryland-college-park-our-work-will-focus-on-investigating-reasoning-mechanisms-inside-llms-which-can-aid-in-guardrailing-against-jailbreaks",
+          title: 'Excited to finally start my collaboration with Prof. Sanghamitra Dutta from the University...',
+          description: "",
+          section: "News",},{id: "news-i-am-here-at-neurips-2025-meet-up-to-talk-all-things-ai-safety-or-just-to-hang-about",
+          title: 'I am here at NeurIPS 2025, meet up to talk all things AI...',
+          description: "",
+          section: "News",},{id: "news-received-offer-of-admission-in-northeastern-university-s-msc-programs-of-ai-and-cs-with-2-merit-awards-for-scholarships",
+          title: 'Received offer of admission in Northeastern University’s MSc programs of AI and CS,...',
+          description: "",
+          section: "News",},{id: "news-our-new-paper-riemannian-guided-diffusion-for-scalable-synthetic-signal-data-generation-has-been-submitted-to-ijcai-2026",
+          title: 'Our new paper “Riemannian-Guided Diffusion for Scalable Synthetic Signal Data Generation” has been...',
           description: "",
           section: "News",},{id: "projects-tlb-and-page-table-simulation",
           title: 'TLB and Page Table Simulation',
@@ -443,7 +458,7 @@ ninja.data = [{
               window.location.href = "/projects/11_project/";
             },},{id: "projects-ieee-signal-processing-cup-icassp-2025",
           title: 'IEEE Signal Processing Cup, ICASSP 2025',
-          description: "Deepfake Detection Research Project",
+          description: "Deepfake Detection via Multi-Transform Ensemble with Custom Attention",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-deep-rl-enabled-fortnite-agent",
@@ -453,7 +468,7 @@ ninja.data = [{
               window.location.href = "/projects/2_project/";
             },},{id: "projects-reproducing-upop",
           title: 'Reproducing UPoP',
-          description: "Vision transformer compression through unified progressive pruning",
+          description: "Full reimplementation and ablation of Unified Progressive Pruning for Vision Transformers",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-llm-ai-generated-text-classification",
