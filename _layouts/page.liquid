@@ -14,6 +14,18 @@ layout: default
     <p class="post-description">{{ page.description }}</p>
   </header>
 
+  {% if page.img %}
+    <div class="project-thumb mb-4">
+      {%
+        include figure.liquid
+        loading="eager"
+        path=page.img
+        class="img-fluid rounded z-depth-1"
+        alt=page.title
+      %}
+    </div>
+  {% endif %}
+
   <article>
     {{ content }}
   </article>
