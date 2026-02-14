@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reproducing UPoP
-description: Vision transformer compression through unified progressive pruning
+description: Full reimplementation and ablation of Unified Progressive Pruning for Vision Transformers
 img: assets/img/12.jpg
 importance: 12
 category: research
@@ -10,236 +10,57 @@ github: https://github.com/Swadesh06/BYOP_Repro_UPop
 
 ## Overview
 
-A reproducibility study and enhancement project for "UPop: Unified and Progressive Pruning for Compressing Vision-Language Transformers" (ICML 2023), focusing on the DeiT model under the BYOP Reproducibility Track 2024.
+A reproducibility study of "UPop: Unified and Progressive Pruning for Compressing Vision-Language Transformers" (ICML 2023) under the DSG BYOP Reproducibility Track 2024. Since the original authors' code proved unsuitable for reproduction, the **entire algorithm and model pipeline was implemented from scratch**, followed by an extensive ablation study that went beyond the original paper's experiments.
 
-## Project Details
+**Duration:** December 2023 -- February 2024 | **Track:** BYOP Reproducibility Track 2024  
+**Model:** DeiT-base-distilled (`facebook/deit-base-distilled-patch16-224`) | **Dataset:** CIFAR-10  
+**Compute:** ~200 GPU hours across 5 Kaggle P100 instances
 
-**Duration:** December 2023 – February 2024  
-**Original Paper:** UPop (ICML 2023)  
-**Track:** BYOP Reproducibility Track 2024  
-**Model Focus:** DeiT (Data-efficient Image Transformer)  
-**Code:** [GitHub Repository](https://github.com/Swadesh06/BYOP_Repro_UPop)
+## UPop Algorithm: The Two Pillars
 
-## Objectives
+### Unified Pruning
 
-1. **Reproduce Original Results:** Validate UPop methodology on DeiT
-2. **Ablation Studies:** Analyze component contributions
-3. **Novel Enhancements:** Introduce optimizations
-4. **Compression Analysis:** Achieve efficient model compression
+Instead of separately pruning different structures (attention heads, FFN dimensions), UPop searches across all compressible components jointly in a continuous optimization space, automatically determining the pruning ratio for each. Z-score normalization is applied to trainable masks to handle magnitude variance across structures -- without it, the sparsity loss drives weights to exceptionally low values causing random, uncontrolled pruning.
 
-## Original Paper: UPop
+### Progressive Pruning
 
-### Core Methodology
-
-**UPop** (Unified and Progressive Pruning) is a comprehensive framework for compressing Vision-Language Transformers through:
-
-- **Progressive Pruning:** Gradual reduction of network capacity
-- **Unified Framework:** Joint pruning of attention heads and FFN dimensions
-- **Importance Scoring:** Gradient-based importance estimation
-- **Knowledge Distillation:** Maintaining performance during compression
-
-## Reproduction Study
-
-### Experimental Setup
-
-- **Model:** DeiT-Base (86M parameters)
-- **Dataset:** ImageNet-1K
-- **Framework:** PyTorch
-- **Hardware:** NVIDIA GPUs
-
-### Validation Results
-
-Successfully reproduced key findings:
-- Compression ratios matching original paper
-- Performance degradation within expected bounds
-- Training dynamics consistent with reported behavior
+Traditional two-stage pruning (search then retrain) fails at high compression ratios because pruned neurons' mask magnitudes don't converge to 0, making the sliced subnet hard to train. Progressive Pruning addresses this with a custom optimizer that gradually drives eliminated neurons' masks to zero as a function of the current iteration, ensuring stable convergence even at 90% compression.
 
 ## Key Results
 
-### Compression Performance
+**Achieved 90% model compression with only 5.5% accuracy drop** -- closely matching the original paper's reported 5.2%.
 
-**Achieved:** 90% model compression with only 5.5% accuracy drop
+### Progressive Pruning with Different Schedules
 
-| Metric | Baseline | UPop (90% Compression) | Delta |
-|--------|----------|------------------------|-------|
-| Parameters | 86M | 8.6M | -77.4M |
-| Top-1 Acc | 81.8% | 76.3% | -5.5% |
-| Inference Time | 100% | 45% | -55% |
-| Memory | 100% | 30% | -70% |
+| Compression | Linear | Sigmoid | Exp. Decay | Improvement over Mask Pruning |
+| ------------- | -------- | --------- | ------------ | ------------------------------- |
+| 50% | ~-3% | ~-3% | ~-4.5% | ~+3% |
+| 80% | ~-6% | ~-6% | ~-5% | ~+5% |
+| 90% | ~-7% | ~-7% | ~-5.5% | ~+5.5% |
 
-### Comparison with Baselines
-
-| Method | Compression | Acc Drop | Our Reproduction |
-|--------|-------------|----------|------------------|
-| Magnitude Pruning | 90% | 12.3% | ✓ |
-| Random Pruning | 90% | 15.7% | ✓ |
-| UPop (Original) | 90% | 5.2% | ✓ |
-| **UPop (Ours)** | 90% | **5.5%** | New |
-
-## Ablation Studies
+Mask-based pruning became ineffective beyond 50% compression, while Progressive Pruning maintained stable convergence up to 90%.
 
 ### Component Analysis
 
-Analyzed contribution of each UPop component:
+| Configuration | Accuracy Change (0.5 comp.) | vs. Mask Pruning |
+| --------------- | ---------------------------- | ------------------ |
+| Progressive Only | -5% | +4% |
+| Unified + Progressive | -4% | +3% |
 
-1. **Progressive Schedule Impact**
-   - Linear vs exponential pruning
-   - Step size effects
-   - Final sparsity impact
+## Ablation Study (8+ Configurations)
 
-2. **Importance Scoring Methods**
-   - Gradient-based
-   - Activation-based
-   - Hybrid approaches
+Experiments conducted beyond the original paper's scope:
 
-3. **Distillation Strategy**
-   - Teacher model selection
-   - Temperature tuning
-   - Loss weight balancing
+- **Exclusion of normalization:** Caused uncontrolled sparsity loss, pushing weights to near-zero with unbounded pruning ratios reaching ~0.995
+- **Exclusion of sparsity loss:** Weights retained high values past the threshold, reducing effective pruning magnitude
+- **Fixed threshold binarization:** Performed inferiorly to topk but useful for maximum-compression scenarios
+- **Non-linear scheduling:** Sigmoid excelled at moderate ratios (0.4-0.7), exponential decay prevailed at high ratios (~0.9), linear was best below 0.5
+- **Adaptive pruning via validation accuracy:** Added +2% accuracy retention at 0.9 compression by adapting pruning rate based on epoch-to-epoch validation performance
 
-### Novel Findings
+## Challenges
 
-- Optimal pruning schedule varies with model architecture
-- Combined importance metrics outperform individual ones
-- Early-stage aggressive pruning harmful to performance
-
-## Proposed Enhancements
-
-### 1. Adaptive Pruning Schedule
-
-Introduced dynamic pruning rate adjustment based on:
-- Validation performance monitoring
-- Layer-wise sensitivity analysis
-- Automatic step size tuning
-
-**Result:** 0.3% better accuracy retention
-
-### 2. Enhanced Importance Scoring
-
-Combined multiple importance metrics:
-```python
-score = α * gradient_score + 
-        β * activation_score + 
-        γ * attention_score
-```
-
-**Result:** More robust pruning decisions
-
-### 3. Structured Pruning Optimizations
-
-- Block-wise pruning for hardware efficiency
-- Attention head clustering
-- FFN dimension grouping
-
-**Result:** 15% faster inference on target hardware
-
-## Technical Implementation
-
-### Pruning Pipeline
-
-```python
-# Iterative pruning loop
-for epoch in pruning_schedule:
-    # 1. Forward pass and importance scoring
-    importance = compute_importance(model, data)
-    
-    # 2. Select parameters to prune
-    mask = select_pruning_mask(importance, sparsity)
-    
-    # 3. Apply pruning
-    apply_mask(model, mask)
-    
-    # 4. Fine-tune with distillation
-    fine_tune(model, teacher, data)
-    
-    # 5. Evaluate
-    accuracy = evaluate(model, val_data)
-```
-
-### Key Components
-
-1. **Importance Calculator:** Gradient-based scoring
-2. **Mask Generator:** Binary mask creation
-3. **Pruner:** Parameter removal and restructuring
-4. **Distiller:** Knowledge transfer from teacher
-5. **Evaluator:** Performance monitoring
-
-## Challenges and Solutions
-
-### Challenge 1: Training Instability
-
-**Problem:** Sudden accuracy drops during aggressive pruning
-
-**Solution:**
-- Implemented gradual pruning schedule
-- Added learning rate warm-up after pruning steps
-- Enhanced distillation loss weighting
-
-### Challenge 2: Hardware Efficiency
-
-**Problem:** Unstructured pruning doesn't translate to speedup
-
-**Solution:**
-- Introduced structured pruning constraints
-- Aligned with hardware parallelism
-- Block-wise parameter removal
-
-### Challenge 3: Reproducibility
-
-**Problem:** Original paper missing some hyperparameters
-
-**Solution:**
-- Extensive hyperparameter search
-- Ablation studies to identify critical settings
-- Documented all configurations
-
-## Insights and Learnings
-
-### Model Compression Principles
-
-- Progressive pruning superior to one-shot
-- Knowledge distillation crucial for maintaining accuracy
-- Layer sensitivity varies significantly
-- Early layers more sensitive to pruning
-
-### Vision Transformer Characteristics
-
-- Attention heads show redundancy
-- FFN dimensions more critical than expected
-- Patch embedding surprisingly robust to compression
-- Position embeddings require careful handling
-
-### Best Practices
-
-- Always validate with multiple random seeds
-- Monitor intermediate checkpoints
-- Use structured pruning for deployment
-- Balance compression ratio with accuracy requirements
-
-## Impact and Applications
-
-### Research Contributions
-
-- Validated UPop on additional architecture (DeiT)
-- Provided detailed ablation analysis
-- Introduced practical enhancements
-- Open-sourced complete implementation
-
-### Practical Applications
-
-- Edge device deployment
-- Mobile vision applications
-- Resource-constrained environments
-- Real-time inference systems
-
-## Future Directions
-
-- Extension to other vision transformers (Swin, ViT-Large)
-- Combined pruning with quantization
-- Neural architecture search integration
-- Hardware-aware pruning strategies
+The main difficulty was the full from-scratch reimplementation -- requiring extensive debugging, manual integration of unified search, progressive pruning, mask binarization, normalization, sparsity loss, and weight freezing into every layer of the DeiT model. Training 10-12 model variants simultaneously across multiple Kaggle GPU instances was necessary to complete the ablation study within time constraints.
 
 ---
 
-*This project demonstrates the importance of reproducibility in machine learning research and contributes practical insights for efficient model compression.*
-
+*All 6 claims from the original paper were validated. The study confirms Progressive Pruning as the dominant contributor to compression quality, with Unified Search providing meaningful but secondary improvements.*

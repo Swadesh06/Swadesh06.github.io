@@ -47,12 +47,14 @@
   bibtex_show={true}
 }
 
-@inproceedings{swain2025synthetic,
-  abbr={Under Prep.},
-  title={High Throughput Low-Latency Synthetic Signal Generation with Diffusion},
-  author={Swain, Swadesh},
-  booktitle={Under Preparation for ICML 2026},
-  year={2025},
-  month={June},
-  abstract={Devising a resource-efficient data generation pipeline for synthetic data generation of vibrational accelerometer signals of ball bearings. Introduced a lightweight diffusion architectures achieving 99.7% discriminator confidence against real data, trained with only 100 samples per-class of real-data.}
+@inproceedings{swain2026rigs,
+  abbr={Under Review},
+  title={Riemannian-Guided Diffusion for Scalable Synthetic Signal Data Generation},
+  author={Swain, Swadesh and Gupta, Aakash and Mittal, Sparsh},
+  booktitle={Under Review at IJCAI 2026},
+  year={2026},
+  month={January},
+  pdf={https://drive.google.com/file/d/1yI5uXH8QMs28wJAO2CphAdB6IQOcLJ1d/view},
+  abstract={Fault detection in industrial machinery relies on analyzing vibration signals from ball bearings, but obtaining labeled fault data is difficult since failures are rare in practice. Generative models can synthesize training data to address this scarcity, yet most current approaches are designed for images, require substantial computational resources, and perform poorly on one-dimensional signals. We introduce RIGS (Riemannian Injection for Generative Signals), a lightweight diffusion-based framework integrating latent-space pullback-injection for generating high-quality vibration signals. RIGS uses a compact architecture optimized for 1D data and a DDIM editing pipeline utilizing semantic fault directions in the Riemannian space. It incorporates geometric guidance to improve class-specific signal quality, and enables transformation of healthy signals into faulty ones through learned fault characteristics -- allowing knowledge transfer across datasets without retraining. We demonstrate that RIGS achieves superior alignment with the original data distributions while maintaining clear class separation in the latent space. Evaluation on CWRU, MFPT, and a real-world industrial bearing fault datasets shows that RIGS achieves 99.9% discriminator classification accuracy on generated signals, compared to 16-21% for fine-tuned Stable Diffusion and CompVis LDM baselines. RIGS requires 6-10x less GPU memory (2-3 GB vs. 18-30 GB) and runs 6-15x faster, supports sequences up to 32K samples in length, while being trained on scarce data (~100 samples per class).},
+  bibtex_show={true}
 }

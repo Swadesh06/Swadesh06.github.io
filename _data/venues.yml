@@ -7,3 +7,17 @@
 
 "Vision":
   color: "#009f36"
+
+"Under Review":
+  color: "#e8a317"
+
+"Under Prep.":
+  color: "#888888"
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
+  color: "#2698BA"
+
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#8c1aff"

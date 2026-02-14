@@ -1,6 +1,8 @@
 "mittal":
   - firstname: ["Atharv"]
     url: https://www.linkedin.com/in/atharv-mittal-728453280/
+  - firstname: ["Sparsh"]
+    url: https://faculty.iitr.ac.in/~sparshfec/
 
 "pandey":
   - firstname: ["Agam"]
@@ -17,3 +19,6 @@
 "singhi":
   - firstname: ["Shree"]
     url: https://www.linkedin.com/in/shree-s-7ab143136/
+
+"gupta":
+  - firstname: ["Aakash"]
