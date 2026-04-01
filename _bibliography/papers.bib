@@ -1,6 +1,20 @@
 ---
 ---
 
+@inproceedings{swain2026cap,
+  abbr={Under Review},
+  title={CAP: Counterfactual Activation Potential for Quantifying Suppressed Safety Features in Language Models},
+  author={Swain, Swadesh and Dutta, Sanghamitra},
+  booktitle={Under Review at COLM 2026},
+  year={2026},
+  month={February},
+  abstract={Mechanistic interpretability has emerged as a central paradigm for understanding safety behavior in large language models. Current mechanistic interpretability methods focus exclusively on actively firing features, leaving causally relevant suppressed safety-critical features unexamined. We argue that studying suppressed safety-critical features, the ones which should have activated on a harmful prompt but did not, along with the circuits responsible for their suppression, is crucial for comprehending models' safety characteristics. We introduce the study of suppressed features and their causal role in safety behavior, shifting the unit of analysis from active features to inactive ones whose absence permits harmful generation. We propose the Counterfactual Activation Potential (CAP) score, a metric that quantifies a suppressed feature's latent activation tendency by decomposing it into encoder alignment, suppression strength, and causal safety criticality. For efficient feature discovery, we also propose the CAP-guided Safety Feature Discovery (CSFD) algorithm, a two-stage statistical filter that identifies candidate safety features from hundreds of thousands of transcoder features without exhaustive ablation, reducing candidate sets by over two orders of magnitude while retaining causally validated features. Experimentally, applied to Gemma-2-2B and Qwen3-8B with ~86K classified WildJailbreak prompts, CSFD identifies 47 and 42 causally validated safety features concentrated in the final 15-20% of each model's layers. A probing experiment demonstrates that the CAP decomposition yields a 12-point AUROC improvement over baselines, confirming that the decomposition captures information inaccessible to standard activation analysis.},
+  openreview={https://openreview.net/forum?id=FxMc6Hot85},
+  pdf={https://openreview.net/pdf?id=FxMc6Hot85},
+  preview={cap.png},
+  bibtex_show={true}
+}
+
 @inproceedings{swain2025cropapp,
   abbr={NeurIPS},
   title={CroPA++: Exposing Vulnerabilities in Vision Language Models and Enhancing Adversarial Transferability of Cross-Prompt Attacks},
