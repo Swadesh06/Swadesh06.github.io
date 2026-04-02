@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.iitr.ac.in/'>Indian Institute of Technology Roorkee |</a> Undergraduate Researcher
+subtitle: Incoming PhD Student @ <a href='https://ece.umd.edu/'>UMD</a> | <a href='https://www.iitr.ac.in/'>IIT Roorkee</a> Undergraduate Researcher
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hey there! I'm an undergrad at [IIT Roorkee](https://www.iitr.ac.in/) studying Electronics and Communication Engineering, but I spend most of my time thinking about how to make AI systems both powerful and safe. My research interests lie at the intersection of **Mechanistic Interpretability, AI Safety, and Adversarial Robustness** of Vision-Language Models and LLMs.
+Hey there! I'm an incoming PhD student in ECE at the [University of Maryland, College Park](https://ece.umd.edu/), and currently an undergrad at [IIT Roorkee](https://www.iitr.ac.in/) studying Electronics and Communication Engineering. I spend most of my time thinking about how to make AI systems both powerful and safe. My research interests lie at the intersection of **Mechanistic Interpretability, AI Safety, and Adversarial Robustness** of Vision-Language Models and LLMs.
 
 My first foray into interpretability research led to a paper on improving theoretical guarantees of Integrated Gradients attribution methods, accepted at the **NeurIPS 2024 Interpretable AI Workshop**. This was followed by an extensive study on adversarial vulnerabilities in VLMs -- our reproducibility and enhancement work on Cross-Prompt Attacks was published in **TMLR** and received the **Best Paper Award at MLRC 2025** (presented at Princeton). We further extended this into **CroPA++**, accepted at the **NeurIPS 2025 Reliable ML Workshop**, introducing three-fold enhancements that made attacks transferable across images and models.
 
