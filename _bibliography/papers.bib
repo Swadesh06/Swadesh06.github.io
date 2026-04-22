@@ -1,6 +1,20 @@
 ---
 ---
 
+@article{swain2026vlmsafety,
+  abbr={Under Review},
+  title={The Encoding-Behavior Dissociation: How Distributed Safety Representations Yield Single-Direction Vulnerabilities in Vision-Language Models},
+  author={Swain, Swadesh and Mittal, Sparsh},
+  journal={Under Review at TMLR 2026},
+  year={2026},
+  month={April},
+  abstract={Safety refusal in large language models (LLMs) has been shown to be mediated by a single linear direction in residual-stream activation space. The safety refusal geometry of vision-language models (VLMs), however, under the Linear Representation Hypothesis, is scarcely investigated. Unlike LLMs, they introduce a dedicated visual encoder and cross-modal fusion, which greatly expands the representation space as compared to textual modalities only. The understanding of safety behavior in VLM representation spaces has direct implications for multimodal safety alignment. We conduct an investigation of refusal geometry in VLMs spanning multiple models and experiments, and uncover a fundamental dissociation between how safety is encoded and how it is acted upon. At the encoding level, VLM safety representations are markedly higher-dimensional than those of text-only LLMs: in pretrained PaliGemma, separating harmful from benign inputs requires ~50 PCA components (versus one for text-only LLMs), with signal distributed across all token positions and all attention heads, and is robust to iterative direction ablation, a sharp contrast to Gemma-IT, whose safety separation collapses after ablating ~11 directions. At the behavioral level, instruction-tuned VLMs (Qwen-base, Qwen-small, LLaVA, Qwen-tiny, Phi-Vision) are nevertheless governed by a threshold along the single dominant Difference-in-Means (DIM) direction: activation steering along this direction drives harmful-prompt refusal effectively and induces refusal on benign prompts from 52% to 98%. Exploiting this geometry, we derive per-image and universal PGD attacks that achieve 98.4% and 96.9% refusal bypass, respectively, exceeding prior white-box and transfer-based baselines, and remain effective under l-infinity imperceptibility constraints (epsilon = 8/255) on three of four tested architectures. Larger models require stronger perturbations but are not protected, while cross-model transfer is weak (<=11%), indicating that safety geometry is model-specific. This encoding-behavior dissociation, a high-dimensional safety sensor wired to a one-dimensional refusal gate, exposes a structural limitation of current VLM alignment and motivates a shift from encoding-centric toward mechanism-centric safety design.},
+  openreview={https://openreview.net/forum?id=GGFjPyO3mZ},
+  pdf={https://openreview.net/pdf?id=GGFjPyO3mZ},
+  preview={vlm_safety.png},
+  bibtex_show={true}
+}
+
 @inproceedings{swain2026cap,
   abbr={Under Review},
   title={CAP: Counterfactual Activation Potential for Quantifying Suppressed Safety Features in Language Models},
