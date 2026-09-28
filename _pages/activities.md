@@ -38,7 +38,7 @@ nav_order: 4
 
 </ol>
 
-<h2 class="bibliography">2024 - Present</h2>
+<h2 class="bibliography">2024 - 2026</h2>
 
 <ol class="bibliography">
 
@@ -51,15 +51,15 @@ nav_order: 4
   <div id="dsg2024" class="col-sm-8">
     <div class="title">Joint Secretary</div>
     <div class="author">Data Science Group, IIT Roorkee</div>
-    <div class="periodical"><em>Jan 2024 -- Present</em></div>
+    <div class="periodical"><em>Jan 2024 -- Apr 2026</em></div>
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Details</a>
       <a href="https://dsgiitr.in/" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
       <a href="https://dsgiitr.in/research/" class="btn btn-sm z-depth-0" role="button" target="_blank">Research</a>
     </div>
     <div class="abstract hidden">
-      <p>Heading the Research division. Mentoring members to prepare and refine research proposals, develop experiments, and publish research material. Under my tenure, members have published 15+ papers at venues like NeurIPS, CVPR, and ICLR, with most works led solely by undergraduate teams.</p>
-      <p>Organized lectures, workshops, and hackathons spanning Data Science and AI. Annually conduct a lecture series covering fundamentals of ML, math, and deep learning for new members.</p>
+      <p>Headed the Research division. Mentored members to prepare and refine research proposals, develop experiments, and publish research material. Under my tenure, members published 15+ papers at venues like NeurIPS, CVPR, and ICLR, with most works led solely by undergraduate teams.</p>
+      <p>Organized lectures, workshops, and hackathons spanning Data Science and AI. Annually conducted a lecture series covering fundamentals of ML, math, and deep learning for new members.</p>
     </div>
   </div>
 </div>
@@ -74,13 +74,13 @@ nav_order: 4
   <div id="eco2024" class="col-sm-8">
     <div class="title">Head of Editorial</div>
     <div class="author">Eco Group, IIT Roorkee</div>
-    <div class="periodical"><em>June 2024 -- Present</em></div>
+    <div class="periodical"><em>June 2024 -- May 2025</em></div>
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Details</a>
     </div>
     <div class="abstract hidden">
       <p>Led sustainability efforts including a campus-wide plastic cutlery ban, e-waste drives, and Motor-Vehicle Free Days. Organized competitions with sustainability themes for annual fests of IIT Roorkee.</p>
-      <p>Overseeing documentation and editorial workflow for awareness sustainability campaigns.</p>
+      <p>Oversaw documentation and editorial workflow for awareness sustainability campaigns.</p>
     </div>
   </div>
 </div>
