@@ -9,7 +9,7 @@ last_name: Swain
 contact_note: >
   Feel free to reach out via email for research collaborations, internship opportunities, or academic discussions.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Undergraduate researcher in Computer Vision, Diffusion Models, and AI Safety at IIT Roorkee.
+  PhD student in Electrical and Computer Engineering at the University of Maryland, College Park, working on mechanistic interpretability, AI safety, and adversarial robustness of LLMs and VLMs.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
