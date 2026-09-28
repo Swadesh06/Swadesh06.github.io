@@ -51,7 +51,7 @@ nav_order: 4
   <div id="dsg2024" class="col-sm-8">
     <div class="title">Joint Secretary</div>
     <div class="author">Data Science Group, IIT Roorkee</div>
-    <div class="periodical"><em>Jan 2024 -- Apr 2026</em></div>
+    <div class="periodical"><em>Apr 2025 -- Apr 2026</em></div>
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Details</a>
       <a href="https://dsgiitr.in/" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
@@ -110,7 +110,7 @@ nav_order: 4
 
 </ol>
 
-<h2 class="bibliography">2023 - 2024</h2>
+<h2 class="bibliography">2023 - 2025</h2>
 
 <ol class="bibliography">
 
@@ -143,13 +143,13 @@ nav_order: 4
   <div id="ecss2023" class="col-sm-8">
     <div class="title">Junior Member (Operations)</div>
     <div class="author">Electronics and Communication Students Society, IIT Roorkee</div>
-    <div class="periodical"><em>Sep 2023 -- Present</em></div>
+    <div class="periodical"><em>Sep 2023 -- May 2025</em></div>
     <div class="links">
       <a class="abstract btn btn-sm z-depth-0" role="button">Details</a>
     </div>
     <div class="abstract hidden">
       <p>Organized career talks and workshops for ECE and related fields to spread technical knowledge.</p>
-      <p>Providing hands-on experience at practical applications and real-world trends in electronics and communication.</p>
+      <p>Provided hands-on experience at practical applications and real-world trends in electronics and communication.</p>
     </div>
   </div>
 </div>
