@@ -64,6 +64,12 @@ on:
 permissions:
   contents: write
 
+# Back-to-back pushes otherwise race: an older build that finishes last
+# overwrites gh-pages. Cancel the in-flight deploy so the newest commit wins.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
