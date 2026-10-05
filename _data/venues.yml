@@ -21,3 +21,7 @@
 "NeurIPS":
   url: https://neurips.cc/
   color: "#8c1aff"
+
+"CVIP":
+  url: https://cvip2026.nitc.ac.in/
+  color: "#2e7d32"
